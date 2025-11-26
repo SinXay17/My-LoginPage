@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.loginPage {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    background: #a1a1a1;
+    padding: 20px;
+}
+
+/* ส่วนของ h1 ให้ติดบน */
+.h1Login {
+    text-align: center;
+}
+
+
+.input2 input {
+    width: 100%;
+    height: 35px;
+    padding: 6px 10px;
+    box-sizing: border-box; /* กัน input ไม่ทะลุขอบ */
+}
+
+.btn {
+    display: flex;
+    justify-content: right;
+}
+
+.btn button {
+    width: 120%;
+    height: 27px;
+}
+
+.btnL {
+    display: flex;
+    justify-content: right;
+}
